@@ -1336,7 +1336,7 @@ function updateCaches() {
       FrozenCookies.currentBank = currentBank;
     }
     
-    if (FrozenCookies.targetBank.cost != targetBank.cost) {
+    if (FrozenCookies.targetBank.cost != targetBank.cost && targetBank.cost != Number.MAX_VALUE) {
       FrozenCookies.recalculateCaches = true;
       FrozenCookies.targetBank = targetBank;
     }
