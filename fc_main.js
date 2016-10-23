@@ -1219,7 +1219,7 @@ function buySanta() {
     Game.mouseX = 48;
     Game.mouseY = Game.LeftBackground.canvas.height-48-24;
     Game.Click = 1;
-    Game.UpdateSanta();
+    Game.UpgradeSanta();
     Game.Click = 0;
   }
 }
